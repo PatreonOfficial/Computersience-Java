@@ -1,6 +1,6 @@
-//v.0.1
+//v0.2
 /**
-*- max geld
+*- max geld [y] (Werden durch ints gehandled)
 *- fahrbare km (mit jeweiligem verbrauch& tankinhalt) ausgeben
 */
 public class Auto{
@@ -13,6 +13,10 @@ public class Auto{
     private float GasBill;
     private boolean Damage;
     
+    private float cost;
+    private float Money;
+
+    
     public Auto(float iGasUsage, float iTankVol, float iGasPrize){
         km = 0;
         GasLeft = 0;
@@ -20,12 +24,15 @@ public class Auto{
         GasUsage = iGasUsage/100;
         Damage = false;
         GasPrize = iGasPrize;
+        Money = 10000; //10k from begining
+        
     }
     
     //Method for Driving
     public void Drive(float driveKm){
         if(GasLeft - GasUsage*driveKm > 0 && Damage == false){
-           GasLeft = GasLeft - GasUsage*driveKm;
+            GasLeft = GasLeft - GasUsage*driveKm;
+            System.out.println("Du hast auf " + driveKm + "km " + GasUsage*driveKm + "L Spritt verbraucht");
             km += driveKm;
         }
         else{
@@ -42,32 +49,31 @@ public class Auto{
     //Method to refill the tank
     public void Refuel(float RefillAmount){
         //GasLeft = GasLeft + RefillAmount;
-        GasLeft += RefillAmount;
-        if(GasLeft > TankVol){
-            Damage = true;
-            System.out.println("Du hast zu voll getankt, dein Tank ist jetzt kaputt");
+        cost = GasPrize * RefillAmount;
+        if(Money >= cost){
+            GasLeft += RefillAmount;
+            System.out.println("Du hast " + cost + "€ bezahlt.");
+            Money -= cost;
+            
+            if(GasLeft > TankVol){
+                Damage = true;
+                System.out.println("Du hast zu voll getankt, dein Tank ist jetzt kaputt");
+                Money -= cost;
+            }
         }
-        
-        GasBill = GasPrize * RefillAmount;
-        System.out.println("Du hast " + GasBill + "€ bezahlt.");
-        
-    }
-    
-    //get all values
-    public void GetMeters(){
-        km = km;
-        GasLeft = GasLeft;
-        GasUsage = GasUsage;
-        TankVol = TankVol;
-        
-        GasPrize = GasPrize;
-        GasBill = GasBill;
-        Damage = Damage;
     }
     
     //repair
     public void repair(){
-        GasLeft = TankVol;
-        Damage = false; 
+        cost = 1000;
+        if(Money >= cost){ 
+            GasLeft = TankVol;
+            Damage = false;
+            Money -= cost;
+            System.out.println("Du hast "+cost+"€ für die Reperatur bezahlt.");
+        }
+        else{
+            System.out.println("Du hast nicht genug Geld, dir Fehlen "+ (Money - cost) +"€");
+        }
     }
 }
