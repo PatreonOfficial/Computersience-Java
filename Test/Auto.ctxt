@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Auto
+comment0.text=\r\n-\ max\ geld\ [y]\ (Werden\ durch\ ints\ gehandled)\r\n-\ fahrbare\ km\ (mit\ jeweiligem\ verbrauch&\ tankinhalt)\ ausgeben\r\n
+comment1.params=iGasUsage\ iTankVol
+comment1.target=Auto(float,\ float)
+comment2.params=driveKm
+comment2.target=void\ Drive(float)
+comment3.params=RefillAmount
+comment3.target=void\ Refuel(float)
+comment4.params=
+comment4.target=void\ repair()
+numComments=5

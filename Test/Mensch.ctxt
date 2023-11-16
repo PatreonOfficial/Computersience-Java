@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Mensch
+comment0.text=\r\n\ @author\ \=\ PatreonOfficial\r\n\ @version\ \=\ v1\r\n
+comment1.params=ihight\ iage\ idof\ imass\ igender\ iname\ ieye_color
+comment1.target=Mensch(int,\ int,\ int,\ int,\ char,\ java.lang.String,\ java.lang.String)
+comment2.params=ihight\ iage\ idof\ imass\ igender\ iname\ ieye_color
+comment2.target=void\ changeMensch(int,\ int,\ int,\ int,\ char,\ java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=void\ bmi()
+numComments=4
