@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=bSquare
+comment1.params=icolor\ isize\ iposx\ iposy
+comment1.target=bSquare(java.lang.String,\ int,\ int,\ int)
+comment10.params=
+comment10.target=void\ draw()
+comment11.params=
+comment11.target=void\ erase()
+comment11.text=\r\n\ Erase\ the\ square\ on\ screen.\r\n
+comment2.params=
+comment2.target=void\ makeVisible()
+comment3.params=
+comment3.target=void\ makeInvisible()
+comment4.params=nx
+comment4.target=void\ setX(int)
+comment5.params=ny
+comment5.target=void\ setY(int)
+comment6.params=distance
+comment6.target=void\ moveX(int)
+comment7.params=distance
+comment7.target=void\ MoveY(int)
+comment8.params=newSize
+comment8.target=void\ setSize(int)
+comment9.params=newColor
+comment9.target=void\ setColor(java.lang.String)
+numComments=12

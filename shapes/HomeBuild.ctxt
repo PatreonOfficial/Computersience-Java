@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=HomeBuild
+comment0.text=\r\n\ Builds\ the\ wanted\ House\ useing\ BetterObjects\r\n\r\n\ @author\ PatreonOfficial\ (J\u00F6rg\ Justus\ Osthoff)\r\n\ @version\ v1\r\n
+comment1.params=
+comment1.target=HomeBuild()
+comment2.params=
+comment2.target=void\ build()
+numComments=3
