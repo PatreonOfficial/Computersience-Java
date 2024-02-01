@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=main
+comment0.text=\r\n\ main\ class\ of\ project\r\n\r\n\ @author\ PatreonOfficial\r\n\ @version\ alpha\r\n
+comment1.params=inumber
+comment1.target=main(int)
+comment2.params=
+comment2.target=void\ turnOn()
+comment3.params=
+comment3.target=void\ turnOff()
+comment4.params=iPin
+comment4.target=void\ unlock(int)
+comment5.params=iPin\ nPin
+comment5.target=void\ changePin(int,\ int)
+comment6.params=
+comment6.target=void\ fetchNumber()
+comment7.params=to\ message
+comment7.target=void\ sendMessage(main,\ java.lang.String)
+comment8.params=cid\ to\ message
+comment8.target=void\ reciveMessage(int,\ main,\ java.lang.String)
+numComments=9
