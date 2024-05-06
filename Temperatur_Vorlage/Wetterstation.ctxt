@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Wetterstation
+comment0.text=\r\n\ @author\:\ PatreonOfficial\r\n\ @version\ \r\n
+comment1.params=
+comment1.target=Wetterstation()
+comment2.params=
+comment2.target=void\ ausgeben()
+comment3.params=
+comment3.target=void\ average()
+comment4.params=
+comment4.target=void\ min()
+comment5.params=
+comment5.target=void\ min2()
+comment6.params=
+comment6.target=void\ max()
+comment7.params=x
+comment7.target=boolean\ suche(int)
+comment8.params=
+comment8.target=void\ warnung()
+numComments=9
