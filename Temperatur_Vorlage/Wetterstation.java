@@ -77,4 +77,4 @@ public class Wetterstation
     }
 
 }
-//by Justus ; PatreonOfficial
+//by PatreonOfficial
