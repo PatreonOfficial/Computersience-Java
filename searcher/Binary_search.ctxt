@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Binary_search
+comment0.text=\r\n\ Search\ a\ number\ in\ an\ array\ through\ binary\ search\r\n\r\n\ @author\ PatreonOfficial\r\n\ @version\ Pre\ Alpha\r\n
+comment1.params=n\ arr
+comment1.target=Binary_search(int,\ java.lang.String)
+comment2.params=n\ array
+comment2.target=void\ binarySearch(int,\ int[])
+comment3.params=n\ array
+comment3.target=void\ forceSearch(int,\ int[])
+numComments=4
