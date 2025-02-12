@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Crate
+comment0.text=\n\ @author\ @PatreonOfficial\n\ @version\ v1\n
+comment1.params=pID\ pWeight
+comment1.target=Crate(int,\ int)
+comment2.params=
+comment2.target=int\ getID()
+comment3.params=
+comment3.target=int\ getWeight()
+numComments=4

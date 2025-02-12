@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=game
+comment0.text=\n\ Write\ a\ description\ of\ class\ master\ here.\n\n\ @author\ PatreonOfficial\n\ @version\ 1.UrMom\n
+comment1.params=
+comment1.target=game()
+comment2.params=
+comment2.target=void\ updateGame()
+comment3.params=figure\ by
+comment3.target=void\ moveVerical(int,\ int)
+comment4.params=figure\ by
+comment4.target=void\ moveHorizontal(int,\ int)
+comment5.params=
+comment5.target=void\ help()
+numComments=6

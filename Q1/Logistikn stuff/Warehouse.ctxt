@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Warehouse
+comment0.text=\n\ @author\ @PatreonOfficial\n\ @version\ alpa1\n
+comment1.params=
+comment1.target=Warehouse()
+comment2.params=
+comment2.target=void\ basicSetup()
+comment3.params=pCrate
+comment3.target=void\ push(Crate)
+comment4.params=
+comment4.target=void\ printAllWeights()
+comment5.params=
+comment5.target=void\ sort()
+numComments=6

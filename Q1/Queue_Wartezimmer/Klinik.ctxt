@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Klinik
+comment0.text=\n\ Made\ by\ you's\ truely\:\ PatreonOfficial\n\ As\ asignment\ in\ fking\ school\n\ \n
+comment1.params=
+comment1.target=Klinik()
+comment2.params=pName\ pStatus
+comment2.target=void\ signup2(java.lang.String,\ int)
+comment3.params=
+comment3.target=void\ call()
+comment4.params=
+comment4.target=void\ listAll()
+comment5.params=
+comment5.target=int\ count()
+comment6.params=pName
+comment6.target=boolean\ search(java.lang.String)
+numComments=7

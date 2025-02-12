@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Shelf
+comment0.text=\n\ @author\ @PatreonOfficial\n\ @version\ v2\n\ changelog\:\n\ v2\:\n\ -\ can\ now\ be\ used\ in\ the\ exact\ same\ way\ like\ a\ stack,\n\ with\ the\ exeption\ of\ the\ "getWeight"\ method,\ wich\ has\ a\ pretty\ descriptive\ name.\n
+comment1.params=pMaxWeight
+comment1.target=Shelf(int)
+comment2.params=pCrate
+comment2.target=void\ push(Crate)
+comment3.params=
+comment3.target=void\ pop()
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment5.params=
+comment5.target=Crate\ top()
+comment6.params=
+comment6.target=int\ getWeight()
+comment7.params=
+comment7.target=int\ getMaxWeight()
+numComments=8

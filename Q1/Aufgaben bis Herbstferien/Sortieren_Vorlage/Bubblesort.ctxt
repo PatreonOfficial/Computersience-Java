@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Bubblesort
+comment0.text=\n\ @author\ PatreonOfficial\n\ @version\ \n
+comment1.params=sortieren
+comment1.target=int[]\ bubblesort(int[])
+comment2.params=
+comment2.target=void\ main()
+numComments=3
