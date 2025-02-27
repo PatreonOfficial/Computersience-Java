@@ -109,4 +109,22 @@ public class Programm
         }
         print();
     }
+    
+    public List<Integer> moreThan(int x){
+        List<Integer> temp;
+        temp=new List<Integer>();
+        list.toFirst();
+        while(list.hasAccess()){
+            if(list.getContent() > x){
+                temp.append(list.getContent());
+            }
+            list.next();
+        }
+        temp.toFirst();
+        while(temp.hasAccess()){
+            System.out.println(temp.getContent());
+            temp.next();
+        }
+        return temp;
+    }
 }
