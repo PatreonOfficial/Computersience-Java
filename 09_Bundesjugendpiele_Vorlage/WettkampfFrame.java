@@ -22,6 +22,9 @@ public class WettkampfFrame extends JFrame {
     private JButton btnSortierenDurchAuswahl;
     private JPanel panel;
     
+    //My
+     private JButton btnGenBeispiele;
+    
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -51,6 +54,7 @@ public class WettkampfFrame extends JFrame {
             wk.setzePunkte(3, pw);
             we.ergaenzeKarte(wk);
         }
+        showActual();
     }
 
     public WettkampfFrame() {
@@ -117,6 +121,16 @@ public class WettkampfFrame extends JFrame {
             }
         });     
         showActual();
+        
+        //my
+        btnGenBeispiele = new JButton("Beispiele");
+        btnGenBeispiele.setBounds(38, 141, 132, 23);
+        panel.add(btnGenBeispiele);
+        btnGenBeispiele.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                erzeugeBeispiele();
+            }
+        });
     }
 
     private void showActual() {
@@ -174,6 +188,7 @@ public class WettkampfFrame extends JFrame {
         } else {
             // System.out.println("Abgebrochen!");
         }
+        showActual();
     }
 
 }
