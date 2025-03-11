@@ -61,7 +61,7 @@ public class Wettkampfergebnis
             alleWettkaempfe.next();
         }
         alleWettkaempfe.toFirst();
-        while(alleWettkaempfe.getContent().getPunkte(pDisziplin) != bW.getPunkte(pDisziplin)){
+        while(alleWettkaempfe.getContent() != bW){
             alleWettkaempfe.next();
         }
         System.out.println(max);
